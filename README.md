@@ -7,7 +7,7 @@ Covers the full lifecycle: deciding between vanilla Wagtail and CRX for a given 
 ## Install
 
 ```
-/plugin marketplace add dannkkie@wagtail-cms
+/plugin marketplace add dannkkie/wagtail-cms
 /plugin install wagtail-cms-development@wagtail-cms
 ```
 
