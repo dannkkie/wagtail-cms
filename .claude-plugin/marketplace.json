@@ -1,0 +1,28 @@
+{
+  "name": "wagtail-cms",
+  "owner": {
+    "name": "Edmund Kwashie Kpodogui",
+    "email": "elude-shelf-civil@duck.com"
+  },
+  "description": "Skills for building on Wagtail and Wagtail CRX (CodeRed CMS).",
+  "plugins": [
+    {
+      "name": "wagtail-cms-development",
+      "source": "./plugins/wagtail-cms-development",
+      "description": "Build and extend websites on Wagtail and Wagtail CRX (CodeRed CMS) — page models, StreamField blocks, snippets, settings, headless/i18n, and production deployment.",
+      "author": {
+        "name": "Edmund Kwashie Kpodogui"
+      },
+      "keywords": [
+        "wagtail",
+        "django",
+        "cms",
+        "coderedcms",
+        "wagtail-crx",
+        "streamfield",
+        "python"
+      ],
+      "category": "development"
+    }
+  ]
+}

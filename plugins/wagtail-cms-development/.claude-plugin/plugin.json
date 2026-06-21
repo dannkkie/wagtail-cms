@@ -1,0 +1,18 @@
+{
+  "name": "wagtail-cms-development",
+  "description": "Build and extend websites on Wagtail and Wagtail CRX (CodeRed CMS) — page models, StreamField blocks, snippets, settings, headless/i18n, and production deployment.",
+  "author": {
+    "name": "Edmund K. Kpodogui"
+  },
+  "homepage": "https://github.com/dannkkie/wagtail-cms",
+  "license": "MIT",
+  "keywords": [
+    "wagtail",
+    "django",
+    "cms",
+    "coderedcms",
+    "wagtail-crx",
+    "streamfield",
+    "python"
+  ]
+}
