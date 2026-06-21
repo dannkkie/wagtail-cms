@@ -1,6 +1,6 @@
 {
   "name": "wagtail-cms-development",
-  "description": "Build and extend websites on Wagtail and Wagtail CRX (CodeRed CMS) — page models, StreamField blocks, snippets, settings, headless/i18n, and production deployment.",
+  "description": "Build and extend websites on Wagtail and Wagtail CRX (CodeRed CMS) — page models, StreamField blocks, snippets, settings, headless/i18n, performance, search, admin customization, ecommerce, migrations, accessibility, and production deployment.",
   "author": {
     "name": "Edmund K. Kpodogui"
   },
@@ -14,5 +14,16 @@
     "wagtail-crx",
     "streamfield",
     "python"
+  ],
+  "skills": [
+    "./skills/wagtail-cms-development",
+    "./skills/wagtail-localize-i18n",
+    "./skills/wagtail-headless-api",
+    "./skills/wagtail-performance",
+    "./skills/wagtail-custom-admin",
+    "./skills/wagtail-search",
+    "./skills/wagtail-ecommerce",
+    "./skills/wagtail-migrations",
+    "./skills/wagtail-accessibility"
   ]
 }

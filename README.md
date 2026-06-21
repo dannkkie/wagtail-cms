@@ -23,13 +23,19 @@ npx skills add dannkkie/wagtail-cms
 
 Then just work as normal — Claude reaches for the skill automatically any time Wagtail, StreamField, CRX, or CodeRed CMS comes up.
 
-## What's included
+## Skills
 
-- **Decision framework** — when to reach for CRX vs. vanilla Wagtail on a new project, and the signals that mean you should switch mid-project.
-- **`vanilla-wagtail.md`** — page models, StreamField & custom blocks, panels, snippets, images/documents, search, settings models, routable pages, querysets, testing, performance.
-- **`crx.md`** — installation, the abstract→concrete page model pattern, parent/child page rules, the full content/layout block catalog, built-in page types, SEO, forms, writing custom page types, `CRX_*` Django settings, and the Bootstrap 5 coupling.
-- **`deployment.md`** — settings split, environment variables, storage, caching, Docker (incl. Coolify notes), and a pre-launch security checklist.
-- **`headless-and-i18n.md`** — wiring up Wagtail's REST API for headless setups, and multi-language sites (vanilla Wagtail's `wagtail-localize` vs. CRX's different recommended approach, `wagtail-modeltranslation`).
+| Skill | Description |
+|---|---|
+| **wagtail-cms-development** | Core skill — page models, StreamField blocks, CRX, snippets, settings, deployment. Decision framework for CRX vs. vanilla Wagtail. |
+| **wagtail-localize-i18n** | Multi-language sites — wagtail-localize, modeltranslation, PO file workflows, locale tree structure, migration between strategies. |
+| **wagtail-headless-api** | Headless/API-first — REST API v2, wagtail-grapple GraphQL, Next.js/Nuxt integration, preview URLs, image renditions over API. |
+| **wagtail-performance** | Production performance — N+1 patterns catalog, template caching, wagtail-cache + Redis, image CDN, query-count regression testing. |
+| **wagtail-custom-admin** | Custom admin — ModelAdmin/SnippetViewSet, hooks, custom panels & widgets, telepath/React, moderation workflow, custom choosers. |
+| **wagtail-search** | Search backends — Postgres FTS/trigram, Elasticsearch setup, autocomplete, faceted search, relevance tuning, `search_fields` configuration. |
+| **wagtail-ecommerce** | Ecommerce integration — Wagtail + Saleor/Shopify/Snipcart/Oscar product pages, content-driven commerce, caching product API data. |
+| **wagtail-migrations** | Safe migrations — StreamField data migration patterns, zero-downtime deploys, page tree restructuring, squashing, CI testing. |
+| **wagtail-accessibility** | A11y — accessible templates, ARIA patterns, image alt text enforcement, form labels, keyboard navigation, admin a11y testing. |
 
 ## License
 
