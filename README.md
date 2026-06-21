@@ -1,10 +1,20 @@
 # wagtail-cms
 
+[![skills.sh](https://skills.sh/b/dannkkie/wagtail-cms)](https://skills.sh)
+
 A Claude Code / Claude.ai skill for building on **[Wagtail](https://wagtail.org)** (the Django CMS) and **[Wagtail CRX](https://www.coderedcorp.com/cms/)**, formerly known as CodeRed CMS.
 
 Covers the full lifecycle: deciding between vanilla Wagtail and CRX for a given project, scaffolding new sites, building custom page models and StreamField blocks, snippets and settings, headless/REST API setups, multi-language sites, and production deployment.
 
 ## Install
+
+### Any AI agent (skills.sh CLI)
+
+```
+npx skills add dannkkie/wagtail-cms
+```
+
+### Claude Code (plugin marketplace)
 
 ```
 /plugin marketplace add dannkkie/wagtail-cms
